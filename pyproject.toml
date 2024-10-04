@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "poe-agent"
+version = "0.1.0"
+description = ""
+authors = ["Seung Hwan, JUNG <digit82@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+modal = "^0.64.173"
+fastapi-poe = "^0.0.48"
+transformers = "^4.45.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
