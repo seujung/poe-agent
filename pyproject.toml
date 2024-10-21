@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "poe-agent"
+name = "poe_agent"
 version = "0.1.0"
 description = ""
 authors = ["Seung Hwan, JUNG <digit82@gmail.com>"]
@@ -7,9 +7,10 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-modal = "^0.64.173"
+modal = "^0.64.199"
+fastapi = "^0.115.2"
 fastapi-poe = "^0.0.48"
-transformers = "^4.45.1"
+pyngrok = "^7.2.0"
 
 
 [build-system]
